@@ -1,6 +1,10 @@
 /**
- * creates a function which returns students id's only
- * id: are returned as an array using map function
+ * @param {{
+ *   id: Number,
+ *   firstName: String,
+ *   location: String
+ * }[]} students - The list of students.
+ * @returns
  */
 export default function getListStudentIds (student) {
 	if (student instanceof Array) {
